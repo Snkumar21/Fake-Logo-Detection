@@ -2,8 +2,8 @@
 import cv2
 
 # Choose image
-original = cv2.imread("WhatsApp.jpg")
-duplicate = cv2.imread("WhatsApp1.png")
+original = cv2.imread("../Fake Logo Detection/WhatsApp.jpg")
+duplicate = cv2.imread("../Fake Logo Detection/WhatsApp1.png")
 
 # Store the image shape into variable
 ori_shape = original.shape[:2]
